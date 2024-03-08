@@ -1,7 +1,6 @@
 .experience {
-    padding: 85px 149px;
     @include tablet {
-        padding: 10px 20px;
+        padding: 10px 0;
         display: flex;
         flex-direction: column;
         margin-inline: auto;
