@@ -1,0 +1,74 @@
+.experience {
+    padding: 85px 149px;
+    @include tablet {
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+        margin-inline: auto;
+        align-items: center;
+    }
+}
+
+.title {
+}
+.description {
+}
+.description-exp {
+}
+.experience-row {
+    margin-top: 80px;
+    display: flex;
+    gap: 29px;
+    @include tablet {
+        flex-direction: column;
+    }
+}
+.experience-row-container {
+    background: var(--background-color);
+    border-radius: 12px;
+    padding: 32px;
+}
+.exp-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 135%;
+    color: #d1d5db;
+}
+.exp-job {
+    margin-top: 8px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 158%;
+    text-align: center;
+    color: var(--yelow);
+}
+.exp-prog {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 169%;
+    color: #d1d5db;
+}
+.exp-desc {
+    padding: 8px;
+    margin-top: 8px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 169%;
+    color: #6b7280;
+}
+
+
+.experience-container {
+    padding: 96px 0;
+}
+.experience-title {
+    margin-bottom: 24px;
+    @include mobile {
+        font-weight: 600;
+        font-size: 32px;
+    }
+}

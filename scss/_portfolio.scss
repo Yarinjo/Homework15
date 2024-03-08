@@ -1,0 +1,33 @@
+.porfolio {
+    padding: 96px 0;
+    @include mobile {
+        padding: 0;
+    }
+}
+.portfolio-list {
+    margin-top: 80rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+    gap: 29px;
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+.portfolio-item {
+    img {
+        width: 100%;
+    }
+
+    &:first-child {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+.portfolio-title {
+    margin-bottom: 24px;
+}

@@ -1,0 +1,47 @@
+.container {
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 0;
+    @include mobile {
+        flex-direction: column; 
+    }
+}
+.nav-start {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    span {
+        color: var(--yelow);
+    }
+}
+.nav-realNav {
+    display: flex;
+    gap: 27px;
+    @include tablet {
+        gap: 8px;
+    }
+    @include mobile {
+        flex-direction: column;
+        gap: 3px; 
+    }
+}
+.nav-link {
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #9ca3af;
+    @include tablet {
+        font-weight: 300;
+        font-size: 14px;
+    }
+    @include mobile {
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
